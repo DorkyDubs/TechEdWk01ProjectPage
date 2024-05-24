@@ -1,0 +1,107 @@
+@import url("https://cdn.jsdelivr.net/gh/jgthms/minireset.css@master/minireset.min.css");
+* {
+  color: bisque;
+}
+#pageContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+button {
+  background-color: brown;
+}
+.topNav {
+  z-index: 3;
+  color: chocolate;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: transparent;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  align-items: center;
+  border-style: groove;
+  border-radius: 90%;
+  border-width: 1px;
+  border-color: aliceblue;
+  width: 100vw;
+  background-color: transparent;
+}
+
+#bottomNav {
+  background-color: lightgray;
+  color: lightslategrey;
+  bottom: 0px;
+  width: 100vw;
+  left: 0px;
+  position: fixed;
+  height: 38px;
+  border-color: bisque;
+  border-width: 1px;
+}
+h1 {
+  font-size: xx-large;
+  font-weight: bolder;
+  color: chocolate;
+}
+
+a:link {
+  color: plum;
+}
+a:visited {
+  color: paleturquoise;
+  text-decoration: none;
+}
+a:active {
+  color: aqua;
+}
+.noDecoration {
+  text-decoration: none !important;
+}
+
+#bottomPicture {
+  background-size: cover;
+  height: 100vh;
+  background-image: url(https://th.bing.com/th/id/OIP.yiK79aVB-V7p0jGhNX0D9wHaFj?w=248&h=186&c=7&r=0&o=5&dpr=1.5&pid=1.7);
+  position: relative;
+  z-index: 1;
+  background-color: rgb(3, 40, 18);
+  background-blend-mode: lighten;
+  opacity: 99%;
+  margin-bottom: 37px;
+}
+#topPicture {
+  background-size: cover;
+  height: 100vh;
+  background-image: url(https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/dog-puppy-on-garden-royalty-free-image-1586966191.jpg?crop=1.00xw:0.669xh;0,0.190xh&resize=1200:*);
+  padding-top: 50px;
+  position: relative;
+  z-index: 0;
+}
+#middlePicture {
+  background-size: cover;
+  height: 100vh;
+  background-image: url(https://th.bing.com/th/id/R.ef65c71dfcdc55eb4d863b74f2952d94?rik=Apy%2fArUYOimuUA&riu=http%3a%2f%2fclv.h-cdn.co%2fassets%2f16%2f18%2fgettyimages-529202089.jpg&ehk=iMrvforyY1oSynAoFNaF6o2GK5hK%2folIx7G%2fvlxmDGQ%3d&risl=&pid=ImgRaw&r=0);
+  position: relative;
+  z-index: 1;
+  background-color: rgb(74, 73, 14);
+  background-blend-mode: lighten;
+  opacity: 99%;
+}
+
+.contentBox {
+  z-index: 2;
+  position: absolute;
+  left: 10px;
+  top: 65%;
+  background-color: transparent;
+}
+
+#disclaimer {
+  font-style: italic;
+  color: grey;
+}
+#credits {
+  font-size: small;
+}
