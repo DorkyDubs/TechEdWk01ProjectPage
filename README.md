@@ -8,7 +8,7 @@ Using css-styling and flexbox to create a webpagem including the use of position
 🎯 Were there any requirements or goals that you were not quite able to achieve?
 
 stretch goals, the "app.js" section is currently essetially defunct ass it won't properly restore original elements.
-Left them in and consider it still workable but maybe imagine the buttons don't actually function
+Left them in and consider it still workable if you take out the comment code either end but maybe imagine the buttons don't actually function
 
 🎯 If so, could you please tell us what was it that you found difficult about these tasks?
 
